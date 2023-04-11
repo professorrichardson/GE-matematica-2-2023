@@ -3,10 +3,10 @@
     padding: 0;
 }
 .body{
-    background-color:#BDCDD6;
+background: linear-gradient(#C7E2FF, #E2F7F3);
 }
 .cabecalho {
-    background-color: #6096B4;
+    background-color: white;
     color: rgb(58, 52, 52);
     display: flex;
     justify-content: space-between;
@@ -32,43 +32,48 @@
     justify-content: space-around;
     align-items: center;
 }
+.container1{
+    display: flex;
+    flex-direction: column;
+}
 .titulo{
+    text-align: left;
+    margin-top: 50px;  
     color: rgb(0, 0, 0);
-    padding-left: 50px;
-    font-size: 30px;
-    font-weight: bold;
     font-family: 'Abril Fatface', cursive;
 }
-.ge-imagem{
-    padding-top: 30px;
-    width: 44%;
+.paragrafo{
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Abril Fatface', cursive;
 }
-.footer{
-    display: flex;
-    justify-content:flex-end;
-    align-items: end;
-    background-color: #6096B4;
+.section1-imagem{
+    text-align: right;
+    width: 44%;
 }
 .classroom-imagem{
     width: 7%;
+}
 
-}
-.titulo-2{
-    color: rgb(22, 21, 21);
-    padding-left: 100px;
-    padding-right: 200px;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Abril Fatface', cursive;
-}
-.ge-imagem-2{
+.alunos-image{
     padding-top: 30px;
     margin-right: 220px;
     margin-bottom: 10px;
     width: 25%;
 
 }
+.alunos-container{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
 .footer{
+    display: flex;
+    justify-content:flex-end;
+    align-items: end;
+    background-color: #1D263B;
     bottom: 0;
     width: 100%;
     text-align: center;
