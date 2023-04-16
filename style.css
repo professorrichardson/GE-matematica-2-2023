@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
 }
-.body{
+body{
+    font-family: 'Abril Fatface', cursive;
 background: linear-gradient(#C7E2FF, #E2F7F3);
 }
 .cabecalho {
     background-color: white;
     color: rgb(58, 52, 52);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 25px 0 ;
 }
@@ -19,7 +20,7 @@ background: linear-gradient(#C7E2FF, #E2F7F3);
     margin-left: 40px;
 }
 
-.cabecalho-item{
+.cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
@@ -27,54 +28,69 @@ background: linear-gradient(#C7E2FF, #E2F7F3);
     font-weight: bold;
     font-family: 'Abril Fatface', cursive;
 }
-.corpo{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.container1{
-    display: flex;
-    flex-direction: column;
-}
-.titulo{
-    text-align: left;
-    margin-top: 50px;  
-    color: rgb(0, 0, 0);
-    font-family: 'Abril Fatface', cursive;
-}
-.paragrafo{
-    text-align: left;
-    margin-top: 50px;
-    font-family: 'Abril Fatface', cursive;
-}
-.section1-imagem{
-    text-align: right;
+
+.container1-imagem{
     width: 44%;
 }
-.classroom-imagem{
-    width: 7%;
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
 }
-
-.alunos-image{
-    padding-top: 30px;
-    margin-right: 220px;
-    margin-bottom: 10px;
-    width: 25%;
-
-}
-.alunos-container{
+#container1{
     display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
-    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
+.container1-conteudo{
+    width: 35%;
+}
+.container1-titulo{
+    margin-bottom: 24px;
+}
+
+#container2{
+    padding: 24px 0;
+}
+.container2-image{
+    width: 230px;
+}
+
+.container2-icone{
+    width: 24px;
+    padding: 4px 8px;
+
+}
+.container2-div{
+    text-align: center;
+    padding: 50px 0;
+}
+.container2-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.container2-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
+.classroom-imagem{
+    width: 15%;
+}
+
+
 
 .footer{
     display: flex;
-    justify-content:flex-end;
-    align-items: end;
+    align-items: center;
+  justify-content: center;
     background-color: #1D263B;
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+.footer a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
 }
